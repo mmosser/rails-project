@@ -9,6 +9,7 @@ before_script:
 deploy:
   provider: heroku
   app:
-    master: lit-harbor-76464
+    master: rails-project-prod
+    develop: rails-project-staging
   api_key:
     secure: N0iAvwUAJJpHZb+1Eb3Ksjp9CxKfkS2jwJioe9N8waEKBUT6ecl5+7JXqk7KMC57HuzQH2BacdB7J3DtMkDxethgoQ487RJ1Z+3+5oiKE+kEI43EYdxOyF7/IsyjRBaxYsr09e48FX+xdJM1AHe6xlTWxWJJZH+bds4w10IRUJTkcccgoAXooBTgScXqoLkPUTGBT7p3Pd7rlQmA02EbgXlv7u+835I75GKByBSfwwvRXsbjwaKLeb3tYCyOEtLeMAffhpIOjjhCUUPKioK/Icq1BgIRxsvOz+9jlHd+SIiglPnBkdyCoWiKYBmFk0gnqsQ6QF0ChcokhPy3wzpSTOQHLh2mEb0oHSGx2oc/QClI7teqL09fFrozu1wwpVqRuabOPeLp1KmMSC0eh3M29lx0wYRrf2BaVGE9pj0a8CtrEm31u07VxtnppW+cUS58885utO7CgPUcxcMqwC2MS1EPgOEK6laZg98LSn/pbbFVvhuK2dxVf4vDwTvimd+M9lqv8mp7C/KESxnGVXIspAjlLsBFOG/dIN0IrpHOTnn6SbZpxleXtMChxmLMk1Gy0bEhFwpVy8zJxi0jWRoCP2uHGy4S5dZw0JxZnOl1/1bZnRJqN/QMo3Ou9Pra7gU2M1KfTBMOjHv6pS5dMkd6SD9BbWzA0FOlPa6ko8oft3A=
